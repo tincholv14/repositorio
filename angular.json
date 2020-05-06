@@ -22,10 +22,18 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
-              "src/styles.css"
-            ],
-            "scripts": []
+           "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/@fortawesome/fontawesome-free/css/all.css",
+             "src/styles.css"
+           ],
+           "scripts": [
+             "node_modules/jquery/dist/jquery.min.js",
+             "node_modules/popper.js/dist/popper.js",
+             "node_modules/bootstrap/dist/js/bootstrap.min.js",
+             "node_modules/@fortawesome/fontawesome-free/js/all.js"             
+           ]
+
           },
           "configurations": {
             "production": {
